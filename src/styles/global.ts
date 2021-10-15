@@ -9,8 +9,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: #2f3437;
-    color: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(119.11deg, #FF7982 0%, #FF8D53 100%);
+    color: var(--dark-font);
   }
 
   button {
@@ -18,9 +18,18 @@ export default createGlobalStyle`
   }
 
   #root {
-    max-width: 1020px;
+    --body-gradient: linear-gradient(119.11deg, #FF7982 0%, #FF8D53 100%);
+    --button-gradient: linear-gradient(90.09deg, #FF748D 0%, #FF8E4F 100%);
+    --app-background: #F4F8FD;
+    --white-font: #ffffff;
+    --dark-font: #000000;
+    --dark-blue: #09183F;
+
+
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px 50px;
+    background-color: var(--app-background);
+    height: 100%;
   }   
 
 `;

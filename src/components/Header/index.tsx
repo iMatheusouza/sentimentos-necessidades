@@ -1,7 +1,7 @@
-import React from "react";
+import { Container } from "./style";
 
 const Header = (): JSX.Element => {
-  return <header>This is the header</header>;
+  return <Container>placeholder</Container>;
 };
 
 export default Header;
